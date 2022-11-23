@@ -1,8 +1,8 @@
 function simpleСomposite(number) {
-  if (number < 2 && number > 1000 && !isNaN(number)){
+  if (number < 2 || number > 1000 || isNaN(number)){
     return 'Данные неверны';
   }
-  else (number === 2) {
+  else if (number === 2) {
     return 'Простое число';
   }
   let i = 2;
@@ -16,4 +16,4 @@ function simpleСomposite(number) {
   return 'Простое число';
 };
 
-console.log(simpleСomposite(0));
+console.log(simpleСomposite(3));
