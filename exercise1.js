@@ -23,4 +23,4 @@ function evenOdd() {
   }
   console.log(noNumber, evenNumber, oddNumber);
 }
-evenOdd()
+evenOdd();

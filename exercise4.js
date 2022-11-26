@@ -9,4 +9,4 @@ function printNumbers (a, b) {
     }, 1000);
   }
   
-  printNumbers(5, 10)
+  printNumbers(5, 10);
